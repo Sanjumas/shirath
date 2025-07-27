@@ -1,0 +1,43 @@
+.quick-report {
+  padding: 20px;
+  font-family: Arial;
+}
+
+.top-filters button {
+  margin: 5px;
+  padding: 10px 20px;
+  background: #f2f2f2;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.top-filters button:hover {
+  background-color: #ddd;
+}
+
+.metrics {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px 0;
+}
+
+.card {
+  flex: 1;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 10px;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+}
+
+.card.critical { background-color: #e74c3c; }
+.card.success  { background-color: #27ae60; }
+.card.info     { background-color: #2980b9; }
+.card.danger   { background-color: #c0392b; }
+
+.food-list {
+  display: flex;
+  flex-wrap: wrap;
+}
